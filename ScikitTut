@@ -1,0 +1,8 @@
+from sklearn import datasets, svm
+import matplotlib.pyplot as plt
+import pylab as pl
+
+digits = datasets.load_digits()
+iris = datasets.load_iris()
+data = iris.data
+data.shape
